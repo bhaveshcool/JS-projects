@@ -1,0 +1,60 @@
+body{
+    display: flex;
+   align-items: center;
+   background-image: linear-gradient(to bottom, rebeccapurple, rgb(84, 2, 84));
+   flex-direction: column;
+   overflow: hidden;
+   min-height: 100vh;
+   justify-content: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+a:hover{
+  color: wheat;
+}
+
+h2, p{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 2rem;
+     text-transform: uppercase;
+    color: whitesmoke;
+}
+
+button{
+    padding: 5px 10px;
+    color: aliceblue;
+    border: none;
+    margin: 20px 0;
+    height: 50px;
+    border-radius: 8px;
+    width: 100px;
+    background-color: rgb(43, 6, 71);
+    font-weight: 8rem;
+    font-size: 1rem;
+}
+
+#incre{
+    font-weight: 8rem;
+}
+
+#save{
+    font-weight: 8rem;
+}
+
+#clear{
+    color: white;
+    font-weight: 8rem;
+}
+

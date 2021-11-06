@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+    font-family: sans-serif;
+}
+
+h4{
+    color: whitesmoke;
+    text-transform: uppercase;
+    background-color: rgb(88, 43, 133);
+    padding: 1rem;
+    font-weight: lighter;
+    border-radius: 10px;
+    margin: 5rem 2rem;
+}
+
+a{
+    font-size: 3rem;
+    margin: 2rem;
+    text-align: center;
+    color: whitesmoke;
+    cursor: pointer;
+}

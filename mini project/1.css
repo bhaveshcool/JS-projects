@@ -1,0 +1,34 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+   top: 50%;
+   position: absolute;
+   padding: 20px 50px;
+   color: white;
+   background-color: rebeccapurple;
+   border: none;
+   font-weight: 500;
+   border-radius: 5px;
+   font-size: 2rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+
+#btn:focus{
+    outline: none;
+}
+
+#btn:active{
+    box-shadow: 0;
+    transform: translate(8px, 4px);
+}
