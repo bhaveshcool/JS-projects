@@ -5,7 +5,7 @@ body{
     min-height: 100vh;
     box-sizing: border-box;
     padding: 10px;
-    background-image: linear-gradient(to bottom, blueviolet, purple);
+    background-image: linear-gradient(to bottom, #22254b 40%, purple);
 }
 
 input{
@@ -33,7 +33,7 @@ button{
     color: aliceblue;
     border: none;
     margin: 10px 25px;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: #444073;
     border-radius: 8px;
     text-decoration: underline;
 }

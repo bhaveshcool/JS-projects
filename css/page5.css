@@ -1,7 +1,7 @@
 body{
     display: flex;align-items: center;justify-content: center;flex-direction: column;
     color: aliceblue;
-    background-image: linear-gradient(to bottom, rebeccapurple, purple);
+    background-image: linear-gradient(to bottom, #22254b 40%, purple);
     min-height: 100vh;
     overflow: hidden;
 }

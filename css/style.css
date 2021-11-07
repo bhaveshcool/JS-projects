@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rebeccapurple;
+    background-color: #22254b;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,7 +15,7 @@ body{
 h4{
     color: whitesmoke;
     text-transform: uppercase;
-    background-color: rgb(88, 43, 133);
+    background-color: #434073;
     padding: 1rem;
     font-weight: lighter;
     border-radius: 10px;

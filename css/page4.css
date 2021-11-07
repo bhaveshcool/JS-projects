@@ -1,6 +1,6 @@
 body{
     display: flex;align-items: center;justify-content: center;flex-direction: column;
-    background-image: linear-gradient(to bottom, rebeccapurple, purple);
+    background-image: linear-gradient(to bottom, #22254b 40%, purple);
     overflow: hidden;
     min-height: 100vh;
 }

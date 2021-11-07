@@ -1,7 +1,7 @@
 body{
     display: flex;
    align-items: center;
-   background-image: linear-gradient(to bottom, rebeccapurple, rgb(84, 2, 84));
+   background-image: linear-gradient(to bottom, #22254b, rgb(84, 2, 84));
    flex-direction: column;
    overflow: hidden;
    min-height: 100vh;
@@ -40,7 +40,7 @@ button{
     height: 50px;
     border-radius: 8px;
     width: 100px;
-    background-color: rgb(43, 6, 71);
+    background-color: #434073;
     font-weight: 8rem;
     font-size: 1rem;
 }
