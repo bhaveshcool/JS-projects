@@ -1,0 +1,29 @@
+body{
+    display: flex;align-items: center;justify-content: center;flex-direction: column;
+    color: aliceblue;
+    background-image: linear-gradient(to bottom, #22254b 40%, purple);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+h1{
+    margin: 20px 0px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    font-family: Times, serif;
+    font-weight: bolder;
+    margin: 1.25rem 0;
+    font-size: 3rem;
+    color: white;
+    transition: 0.5s linear all;
+}

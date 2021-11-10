@@ -13,6 +13,11 @@ body{
     margin: 0;
 }
 
+h1{
+    color: white;
+    font-family: inherit;
+}
+
 header{
     padding: 1rem;
     display: flex;
@@ -111,4 +116,27 @@ header a{
     outline: 2px solid var(--primary);
     left: 2rem;
     padding: 0.5rem;
+}
+
+#tags{
+    width: 80%;display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.tag{
+    color: aliceblue;
+    background-color: orange;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.tag.high{
+    background-color: red;
 }
